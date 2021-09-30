@@ -1,0 +1,526 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CrawlBender
+</name>
+</assembly>
+<members>
+<member name="F:CrawlBender.NotesForm._notes">
+	<summary>
+ current character's notes file
+ </summary>
+</member><member name="P:CrawlBender.NotesForm.SelectedNote">
+	<summary>
+ return currently selected note from the active listbox
+ </summary>
+</member><member name="P:CrawlBender.NotesForm.SelectedNotes">
+	<summary>
+ select the notes list based on which tab is active
+ </summary>
+</member><member name="M:CrawlBender.NotesForm.LoadNotes(System.String)">
+	<summary>
+ open saved note file and load into Note toolbox
+ </summary>
+	<param name="FullFileName">full path of note's file name</param>
+</member><member name="M:CrawlBender.NotesForm.RefreshAllLists">
+	<summary>
+ clear all lists and reassociate them to their appropriate data sources (this will display any changes to notes lists)
+ </summary>
+</member><member name="M:CrawlBender.NotesForm.PopTextboxes">
+	<summary>
+ populate the Item name and description text boxes from the curretnly selected note
+ </summary>
+</member><member name="M:CrawlBender.NotesForm.AnyList_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ pop text boxes whenever the selected note changes
+ </summary>
+</member><member name="M:CrawlBender.NotesForm.NotesForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ prompt user to save any unsaved data
+ </summary>
+</member><member name="P:CrawlBender.MainForm.SelectedCharacter">
+	<summary>
+ Name of selected character
+ </summary>
+</member><member name="P:CrawlBender.MainForm.xl_path">
+	<summary>
+ find, save, and return the path to Excel.exe
+ </summary>
+</member><member name="P:CrawlBender.MainForm.ScriptRunning">
+	<summary>
+ flag if script is currently running
+ </summary>
+</member><member name="M:CrawlBender.MainForm.MoveCharacterMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Backup/Restore selected character - based on whether saved or backup character is selected
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.MainForm.FixHPMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Max HP
+ </summary>
+</member><member name="M:CrawlBender.MainForm.FixBothHPMPMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Max HP and MP
+ </summary>
+</member><member name="M:CrawlBender.MainForm.FixAllBackupMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Max HP and MP, Backup, Load
+ </summary>
+</member><member name="M:CrawlBender.MainForm.FixGoldMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ set gold to "big" value
+ </summary>
+</member><member name="M:CrawlBender.MainForm.FixFoodMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ set hunger level to barely Full
+ </summary>
+</member><member name="M:CrawlBender.MainForm.FixAllLaunchMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Max HP and MP, Load
+ </summary>
+	<remarks>don't backup</remarks>
+</member><member name="M:CrawlBender.MainForm.Status(System.String,System.Int32)">
+	<summary>
+ Display status message to user
+ </summary>
+</member><member name="M:CrawlBender.MainForm.ResetStatusIn(System.Int32)">
+	<summary>
+ Reset the message in the status bar after x seconds
+ </summary>
+	<param name="Seconds">Number of seconds to wait before resetting the status bar text</param>
+</member><member name="M:CrawlBender.MainForm.ValidateSetup">
+	<summary>
+ make sure file structure is valid
+ </summary>
+</member><member name="M:CrawlBender.MainForm.MoveCharacter">
+	<summary>
+ Backup/Restore selected character - based on whether saved or backup character is selected
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.MainForm.DeleteCharacter">
+	<summary>
+ delete all files related to currently selected character
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.MainForm.RefreshLists">
+	<summary>
+ populate saved and backup list with saved game names in respective folders
+ </summary>
+</member><member name="M:CrawlBender.MainForm.PopAList(System.Windows.Forms.ListBox@,System.String)">
+	<summary>
+ add all .sav file names (w/out extention) to a list box
+ </summary>
+	<param name="Box">Ref to list box to be populated</param>
+	<param name="SourceFolder">folder containing saved game files</param>
+</member><member name="M:CrawlBender.MainForm.BuildSavedGameFname(System.String)">
+	<summary>
+ build character saved game file name 
+ </summary>
+	<param name="CharName">name of character</param>
+	<returns></returns>
+	<remarks>full name = game path + character name + .sav</remarks>
+</member><member name="M:CrawlBender.MainForm.BuildNotesFname(System.String)">
+	<summary>
+ build character notes file name
+ </summary>
+	<param name="CharName">name of character</param>
+	<returns></returns>
+	<remarks>full name = notes path + character name + _Notes.txt</remarks>
+</member><member name="M:CrawlBender.MainForm.RestoreSelected">
+	<summary>
+ look for saveSelectedChar in saved list.  If found then select it
+ </summary>
+	<remarks>restores selected character in saved list after a list refresh</remarks>
+</member><member name="M:CrawlBender.MainForm.SetupScript">
+	<summary>
+ Show Script Config form
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.MainForm.KillAllCrawls">
+	<summary>
+ kill all crawl processes
+ </summary>
+</member><member name="M:CrawlBender.CrawlFileManager.Backup(System.String,System.Windows.Forms.ProgressBar@)">
+	<summary>
+ move all file related to SavedGameName from saved folder to backup game folder; return number of files moved
+ </summary>
+	<param name="SavedGameName"></param>
+	<param name="ProgBar">reference to a progress bar control</param>
+</member><member name="M:CrawlBender.CrawlFileManager.Restore(System.String,System.Windows.Forms.ProgressBar@)">
+	<summary>
+ move all file related to BackupGameName from backup folder to saved game folder; return number of files moved
+ </summary>
+	<param name="BackupGameName"></param>
+	<param name="ProgBar">reference to a progress bar control</param>
+</member><member name="M:CrawlBender.CrawlFileManager.DeleteSavedCharacter(System.String,System.Windows.Forms.ProgressBar)">
+	<summary>
+ delete all files related to SavedCharacterName; return count of number of files deleted
+ </summary>
+	<param name="SavedCharacterName">name of char with or without filex extension</param>
+	<param name="ProgBar">optional reference to a progress bar control to show progress</param>
+	<returns>Number of file deleted</returns>
+</member><member name="M:CrawlBender.CrawlFileManager.DeleteBackupCharacter(System.String,System.Windows.Forms.ProgressBar)">
+	<summary>
+ delete all files related to BackupCharacterName; return count of number of files deleted
+ </summary>
+	<param name="BackupCharacterName">name of char with or without filex extension</param>
+	<param name="ProgBar">optional reference to a progress bar control to show progress</param>
+	<returns>Number of file deleted</returns>
+</member><member name="M:CrawlBender.CrawlFileManager.ClearBones">
+	<summary>
+ delete all bones.* files and morgue.txt
+ </summary>
+</member><member name="M:CrawlBender.CrawlFileManager.BonesExist">
+	<summary>
+ check if any bones.* files or the morgue.txt file exist in saved game folder
+ </summary>
+	<returns></returns>
+</member><member name="M:CrawlBender.CrawlFileManager.MoveCharacter(System.String,System.String,System.String,System.Windows.Forms.ProgressBar@)">
+	<summary>
+ moved all files related to SavedGamename from SourcePath to DestinationPath, updating the progress bar
+ </summary>
+	<param name="SavedGameName">name of saved game with or without file extension</param>
+	<param name="SourcePath">folder (ending with backslash) containing file to move</param>
+	<param name="DestinationPath">folder (ending with backslash) where file will be moved to</param>
+	<param name="ProgBar">reference to progress bar control</param>
+</member><member name="M:CrawlBender.CrystalBall.PrevButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ move to previous detected change
+ </summary>
+</member><member name="M:CrawlBender.CrystalBall.NextButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ Move to next detected change
+ </summary>
+</member><member name="P:CrawlBender.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CrawlBender.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CrawlBender.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:CrawlBender.GameOptions.DEFAULT_GAME_NOTES">
+	<summary>
+ default file name for game notes
+ </summary>
+</member><member name="F:CrawlBender.GameOptions.INSTRUCT_FNAME">
+	<summary>
+ File name for game instructions
+ </summary>
+</member><member name="P:CrawlBender.GameOptions.GamePath">
+	<summary>
+ location of crawl.exe (and saved game files)
+ </summary>
+</member><member name="P:CrawlBender.GameOptions.BackupPath">
+	<summary>
+ location for backedup files
+ </summary>
+	<remarks>
+ {APP} is used to indicated game path should be inserted there
+ </remarks>
+</member><member name="P:CrawlBender.GameOptions.NotesPath">
+	<summary>
+ location for notes files
+ </summary>
+	<remarks>
+ {APP} is used to indicated game path should be inserted there
+ </remarks>
+</member><member name="P:CrawlBender.GameOptions.GameNotes">
+	<summary>
+ File name of games notes
+ Combine(_options.NotesPath, Me._options.GameNotes)
+ </summary>
+</member><member name="F:CrawlBender.ScriptEngine._mainForm">
+	<summary>
+ reference to the main form (used when access app commands)
+ </summary>
+</member><member name="F:CrawlBender.ScriptEngine.DCTitle">
+	<summary>
+ value in title bar for DC app
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.Str2Num(System.String)">
+	<summary>
+ convert string to number (handle blanks and non-numerics) 
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.Premere(System.String)">
+	<summary>
+ send the keystroke 
+ </summary>
+	<param name="key"></param>
+</member><member name="M:CrawlBender.ScriptEngine.AttivareCrawl">
+	<summary>
+ give Crawl focus
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.AttivareAiutante">
+	<summary>
+ give Crawl Bender focus
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.LanciareCrawl">
+	<summary>
+ Launch Dungeon Crawl
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.Pause(System.Object)">
+	<summary>
+ Pause app execution for short time
+ </summary>
+	<param name="TimeInMs"></param>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.ConservareGioco">
+	<summary>
+ Save the game
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.Andare(CrawlBender.ScriptEngine.Directions)">
+	<summary>
+ move one step to Direction 
+ </summary>
+	<param name="Direzione"></param>
+</member><member name="M:CrawlBender.ScriptEngine.ParseCmdLine(System.String)">
+	<summary>
+  parse and run the commnd line 
+ </summary>
+	<remarks>
+ P(x) = Push key 'x'
+ [command] = run 'command' macro
+   macros: launch, backup, 
+ 
+ semi-colon delimited?
+ 
+ </remarks>
+</member><member name="M:CrawlBender.ScriptEngine.BigPushViaCmdLine(System.String)">
+	<summary>
+ push key after launch new crawl
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.LittlePushViaCmdLine(System.String)">
+	<summary>
+ push key in existing crawl
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.GetKeyToPush(System.String)">
+	<summary>
+ parse "P(x)" to get the "x" out
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.GetScriptCommand(System.String)">
+	<summary>
+ parse "[script]" to get "script" command out
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.IsLittlePush(System.String)">
+	<summary>
+ test if command string is a "little Push" command; little push means push key in existing 
+ crawl
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.IsBigPush(System.String)">
+	<summary>
+ test if command string is a "Big Push; big push means launch new crawl and then push key
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.IsScript(System.String)">
+	<summary>
+ test if command string is a script command
+ </summary>
+</member><member name="M:CrawlBender.ScriptEngine.LeggerePergamena(System.String,System.Int32,System.Int32)">
+	<summary>
+ launch a new crawl session then read ScrollLetter; repeated Ripetizione times
+ </summary>
+	<param name="ScrollLettera"></param>
+	<param name="Ripetizioni"></param>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.Bribe_A_Thon(System.Int32,System.Int32)">
+	<summary>
+ bribe your Power with gold (saving each time)
+ </summary>
+	<param name="Ripetizioni"></param>
+</member><member name="M:CrawlBender.ScriptEngine.MemorizzareIncantesimo(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ launch crawl and attempt to memorize a spell repeatedly without saving
+ </summary>
+	<param name="LibroLettera">Book letter</param>
+	<param name="IncantesimoLettera">Spell letter</param>
+	<param name="Ripetizioni"></param>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.LanciareIncantesimo(System.String,System.Int32,System.Int32)">
+	<summary>
+ launch crawl and cast spell repeatedly without saving
+ </summary>
+	<param name="IncantesimoLettera">Spell letter</param>
+	<param name="Ripetizioni"></param>
+</member><member name="M:CrawlBender.ScriptEngine.Evocare(System.Int32,System.Int32)">
+	<summary>
+ launch crawl and evoke power of held object repeatedly without saving
+ </summary>
+	<param name="Ripetizioni"></param>
+</member><member name="M:CrawlBender.ScriptEngine.Quaff(System.String,System.Int32,System.Int32)">
+	<summary>
+ launch crawl and drink potion repeatedly without saving
+ </summary>
+	<param name="PotionLettera">Potion Letter</param>
+	<param name="Ripetizioni"></param>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.ScriptEngine.PergamenaDiAquirement(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Read scroll of aquirement repeatly with out saving
+ </summary>
+	<param name="PergamenaLettera">Scroll Letter</param>
+	<param name="OptionLettera"></param>
+	<param name="Ripetizioni"></param>
+	<remarks></remarks>
+</member><member name="T:CrawlBender.ScriptEngine">
+	<summary>
+ Parses and runs commands in a script
+ </summary>
+</member><member name="F:CrawlBender.Script.Iterations">
+	<summary>
+ number of times to repeat the script (DEFAULT = 5)
+ </summary>
+</member><member name="F:CrawlBender.Script.Pause_MS">
+	<summary>
+ pause in milliseconds between runs of the script (DEFAULT = 500ms)
+ </summary>
+</member><member name="T:CrawlBender.Script">
+	<summary>
+ A script command and it associated parameters
+ </summary>
+</member><member name="T:CrawlBender.EnvokeScript">
+	<summary>
+ envoke the currently held item
+ </summary>
+</member><member name="F:CrawlBender.ScrollOfAquirementScript.ThingLetter">
+	<summary>
+ Letter of the type of aquirement (a through f)
+ </summary>
+</member><member name="P:CrawlBender.SavedGameFile.CharacterName">
+	<summary>
+ Character's name (as contained in saved file, NOT the saved file name)
+ </summary>
+</member><member name="P:CrawlBender.SavedGameFile.HP_Position">
+	<summary>
+ position in file of the HP value
+ </summary>
+</member><member name="M:CrawlBender.SavedGameFile.#ctor(System.String)">
+	<summary>
+ Constructor
+ </summary>
+	<param name="SaveFilename">full file name (including path) of saved game file</param>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.SavedGameFile.FixFood">
+	<summary>
+ set hunger level to "Full"
+ </summary>
+	<remarks>hunder level is contained in type bypes
+ Values of 40 and 148 in these two bytes respectively yeilds acceptable result (not exact) </remarks>
+</member><member name="M:CrawlBender.SavedGameFile.MaxGold">
+	<summary>
+ give huge pile of gold
+ </summary>
+	<remarks>gold amount is contained in two bytes
+ 50 and 255 in these bytes yield 13055 gold pieces</remarks>
+</member><member name="M:CrawlBender.SavedGameFile.ReadFile">
+	<summary>
+ read and save file contents
+ </summary>
+</member><member name="M:CrawlBender.SavedGameFile.Save2File">
+	<summary>
+ write fileContents stored in memory to file
+ </summary>
+</member><member name="M:CrawlBender.SavedGameFile.GetCharacterName">
+	<summary>
+ get character name from fileConetns
+ </summary>
+	<returns></returns>
+	<remarks>file names are limited to 6 characters (of character's name), but Crawl store whole character name even if longer than 6</remarks>
+</member><member name="M:CrawlBender.SavedGameFile.IsNormalChar(System.Byte)">
+	<summary>
+ check if byte is for a char that could be in a character's name
+ </summary>
+	<param name="c">byte number</param>
+</member><member name="P:CrawlBender.DungeonCrawl.FullPath">
+	<summary>
+ fully quallified path name used to reference Crawl EXE
+ </summary>
+</member><member name="M:CrawlBender.DungeonCrawl.Launch(System.String)">
+	<summary>
+ start crawl
+ </summary>
+</member><member name="M:CrawlBender.DungeonCrawl.Open(System.String)">
+	<summary>
+ Load game with an existing character
+ </summary>
+	<param name="CharacterName">Name of Character (max name size is x)</param>
+	<remarks>
+ Command line options: 
+   -name {string}   character name
+ </remarks>
+</member><member name="M:CrawlBender.ScriptDialog.PopScriptList">
+	<summary>
+ populate list with available scripts
+ </summary>
+</member><member name="M:CrawlBender.ScriptDialog.PopParametersGrid(CrawlBender.Script.ScriptTypes)">
+	<summary>
+ populate parameter grid based on selected script
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CrawlBender.CharacterNotes.Load">
+	<summary>
+ load notes from file
+ </summary>
+</member><member name="M:CrawlBender.CharacterNotes.Save">
+	<summary>
+ save notes to disk
+ </summary>
+</member><member name="M:CrawlBender.CharacterNotes.ToString">
+	<summary>
+ concatenate all note lists into a newline-delimited string
+ </summary>
+</member><member name="M:CrawlBender.CharacterNotes.FileExists">
+	<summary>
+ flag if file exists
+ </summary>
+</member><member name="M:CrawlBender.CharacterNotes.ParseFileContents(System.String@)">
+	<summary>
+ parse file content test to appropriate category tabs
+ </summary>
+</member><member name="M:CrawlBender.CharacterNotes.AddToList(System.String,CrawlBender.CharacterNotes.Categories)">
+	<summary>
+ add item to approprate tab
+ </summary>
+	<param name="Item">item to add</param>
+	<param name="Cat">current category tab that item will be added to</param>
+</member><member name="M:CrawlBender.Notes.AddNote(System.String)">
+	<summary>
+ Parse item string and add new note to list
+ </summary>
+</member><member name="M:CrawlBender.Notes.CompareNotes(CrawlBender.Note,CrawlBender.Note)">
+	<summary>
+ used as a Comparison generic delegate in SortNotes()
+ </summary>
+</member><member name="M:CrawlBender.Notes.ParseItemString(System.String,System.String@,System.String@)">
+	<summary>
+ parse item string into title and content; return them by reference
+ </summary>
+	<param name="ItemStr">item string in format TITLE (CONTENT)</param>
+	<param name="RET_title">RETURN by Ref: Title</param>
+	<param name="RET_content">RETURN by Ref: content</param>
+	<remarks>If there is not text in parentheses then content is returned empty</remarks>
+</member><member name="T:CrawlBender.Notes">
+	<summary>
+ Collections of related note objects
+ </summary>
+</member><member name="M:CrawlBender.Note.ToString">
+	<summary>
+ convert object into string in the format "Title (Content)"
+ </summary>
+</member><member name="T:CrawlBender.Note">
+	<summary>
+ A single note row; Title (Content)
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

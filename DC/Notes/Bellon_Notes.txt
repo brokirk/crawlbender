@@ -1,0 +1,21 @@
+[SCROLLS]
+OBYNUXTEK (torment)
+
+[POTIONS]
+emulsified green (cure mut)
+
+[RINGS]
+marble (dex)
+Y - Iqklakoarydaha (hunger; ev+5; str+3; lev; rage)
+
+[WANDS]
+
+[AMULTES]
+j - Hide-and-Seek (fly; protect mag; eyesite)
+k - Ysupobegure (ward; dmg+1; fast metabolism)
+y - Responsibility (protect acid; ev+5; protect fire and poison)
+
+[MISC]
+mask of Dragon (acc + 2; dmg + 2; protect mag; eyesight)
++4 robe Augmentaion (+2 all stats)
+

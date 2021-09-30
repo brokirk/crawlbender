@@ -1,0 +1,102 @@
+ Dungeon Crawl version 4.0.0 beta 26 character file.
+
+Krk the Fencer (Hill Orc)
+(Level 17 Hunter)
+
+Play time: 1 day, 08:09:24       Number of turns: 31722
+
+Experience : 17/183016
+Strength 50     Dexterity 38     Intelligence 25
+Hit Points : 146          Magic Points : 18
+AC : 25          Evasion : 11          Shield : 9
+GP : 290
+
+You are in the Vaults.
+You worship Nemelex Xobeh.
+Nemelex Xobeh is exalted by your worship.
+You are not hungry.
+
+  Inventory:
+Hand weapons
+ a - a +5,+5 katana of slicing
+ b - a +6,+2 orcish crossbow
+ c - a +1,+2 scimitar of flaming
+ t - the uncursed quick blade of Usuveta (weapon)   
+   It inflicts extra damage upon your enemies. 
+   It protects you from fire. 
+   It protects you from cold. 
+   
+Missiles
+ i - 211 +0 bolts
+ o - 18 bolts of flame
+ r - 44 bolts
+ y - 44 +2 bolts
+ z - 11 bolts of ice
+ A - 23 poisoned +0 orcish bolts
+ L - 21 poisoned +0 bolts
+Armour
+ d - a +2 cloak of magic resistance (worn)
+ f - a +0 orcish winged helm (worn)
+ g - a +2 pair of gloves of strength (worn)
+ h - a +2 pair of boots of running (worn)
+ j - a +2 pair of boots of levitation
+ k - a +2 shield of protection (worn)
+ l - a +7 elven scale mail (worn)
+Magical devices
+ B - a wand of digging (7)
+ F - a wand of disintegration (8)
+Scrolls
+ q - 2 scrolls of recharging
+ s - a scroll labeled VOVUWOMYXO
+ C - 5 scrolls of remove curse
+ H - 7 scrolls of teleportation
+Jewellery
+ m - an amulet of conservation (around neck)
+ n - a ring of see invisible
+ u - an amulet of warding
+ v - a +5 ring of strength
+ G - a +0,+6 ring of slaying (left hand)
+ I - an amulet of resist corrosion
+ K - an uncursed ring of poison resistance (right hand)
+Potions
+ p - 6 potions of restore abilities
+ w - 6 potions of healing
+Books
+ x - a book of Minor Magic
+Miscellaneous
+ e - a portable altar of Nemelex
+
+
+ You have 1584 experience left.
+
+   Skills:
+ + Level 13 Fighting
+ - Level 2 Short Blades
+ + Level 18 Long Blades
+ - Level 2 Maces & Flails
+ - Level 2 Staves
+ - Level 2 Bows
+ + Level 14 Crossbows
+ - Level 1 Darts
+ + Level 9 Throwing
+ - Level 6 Dodging
+ + Level 1 Stealth
+ + Level 3 Stabbing
+ + Level 9 Shields
+ - Level 1 Traps & Doors
+ + Level 2 Unarmed Combat
+ + Level 1 Spellcasting
+ - Level 3 Evocations
+
+
+You have 17 spell levels left.
+You know the following spells:
+
+  Your Spells                       Type                  Success   Level
+ a - Apportation                  Translocation           Good        1
+
+           Mutations & Other Weirdness
+Your mind is acute (Int +1).
+You can sense your immediate surroundings.
+You can breathe flames.
+You possess an exceptional clarity of mind.

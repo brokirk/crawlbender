@@ -1,0 +1,35 @@
+[SCROLLS]
+OBEPU (vorperlize wpn)
+VENINYDE (immol)
+
+[POTIONS]
+murky blue (degen)
+
+[RINGS]
+blackened wooden (slaying)
+brass (int)
+granite (sustenance)
+iron (protect fire)
+jade (str)
+knobbly ivory (ice)
+notched silver (protect magic)
+scratched golden (fire)
+small golden (dex)
+tubular copper (invis)
+tubular wooden (life protection)
+twisted steel (see invis)
+
+[WANDS]
+short plastic (confusion)
+
+[AMULTES]
+golden (resist corrosion)
+small bronze (reist mut)
+small zirconium (resist slowing)
+thick zirconium (clarity)
+think ivory (rage)
+think ruby (gourmand)
+twisted copper (controlled flight)
+
+[MISC]
+

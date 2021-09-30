@@ -1,0 +1,67 @@
+ Dungeon Crawl version 4.0.0 beta 26 character file.
+
+Jago the Skirmisher (Human)
+(Level 7 Fighter)
+
+Play time: 01:24:19       Number of turns: 4159
+
+Experience : 7/788
+Strength 18     Dexterity 15     Intelligence 10
+Hit Points : 56          Magic Points : 6
+AC : 6          Evasion : 9          Shield : 7
+GP : 0
+
+You are in the Ecumenical Temple.
+You worship Nemelex Xobeh.
+Nemelex Xobeh is pleased with you.
+You are not hungry.
+
+  Inventory:
+Hand weapons
+ a - a +0 spear (weapon)
+ b - a +0 bow
+ g - an elven dagger
+ q - a +1,+1 dwarven short sword
+Missiles
+ f - 180 stones
+ l - 46 darts
+ B - 21 arrows
+Armour
+ c - a +1 shield (worn)
+ e - a +0 scale mail (worn)
+Magical devices
+ h - a wand of fireball (3)
+ x - a wand of flame
+Scrolls
+ d - 2 scrolls of teleportation
+ i - 8 scrolls of identify
+ z - 2 scrolls of remove curse
+Jewellery
+ m - a +4 ring of intelligence
+ o - an uncursed glowing copper ring (right hand)
+ p - a +4 ring of dexterity (left hand)
+ A - a ring of dexterity
+Potions
+ n - 5 potions of heal wounds
+ r - 3 potions of healing
+ s - 2 potions of might
+ u - 2 fizzy clear potions
+Books
+ y - a book of Surveyances
+
+
+ You have 0 experience left.
+
+   Skills:
+ + Level 4 Fighting
+ - Level 2 Short Blades
+ - Level 2 Polearms
+ + Level 3 Bows
+ - Level 2 Darts
+ + Level 3 Throwing
+ + Level 4 Armour
+ + Level 4 Shields
+
+
+You have 6 spell levels left.
+You don't know any spells.

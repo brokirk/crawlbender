@@ -1,0 +1,29 @@
+[SCROLLS]
+UGYKYG VIGIFU (immolation)
+IVYLU (magic mapping)
+NYMITOWUTICAVE (recharging)
+
+[POTIONS]
+
+[RINGS]
+ivory (protect cold)
+notched iron (see invisible)
+encrusted ivory (strength)
+faintly glowing (protect neg, +2 dex)
+
+[WANDS]
+bronze (fire)
+copper (hastening)
+short iron (disintegrations 9)
+worn bone (polymorph other)
+
+[AMULTES]
+
+[MISC]
+b - the -2,+2 hand axe of Fepip (+6AC, +4STR)
+c - the -4,-3 dagger of Jeruhyduq Gon (+3INT)
+d - a +5,+2 great mace of draining (weapon)
+f - a +4,+3 elven bow of frost
+v - a +3,+2 whip of venom [3,+1,140%]
+w - a +1,+0 sabre
+

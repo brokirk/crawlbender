@@ -1,0 +1,18 @@
+[SCROLLS]
+
+[POTIONS]
+
+[RINGS]
+glowing brass (protect fire)
+steel (protect magic)
+twisted wooden (resist posion)
+encrusted (*poison, str, dex, neg e-, eye, cold weak)
+
+[WANDS]
+
+[AMULTES]
+blackened ivory (convservation)
+twisted jade (resist slow)
+
+[MISC]
+

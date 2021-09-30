@@ -1,0 +1,19 @@
+[SCROLLS]
+
+[POTIONS]
+
+[RINGS]
+blackend steel (life protection)
+jade (wiz)
+shiny marble (protect fire)
+small steel (protect cold)
+
+[WANDS]
+glowing copper (confuse)
+iron (drain)
+
+[AMULTES]
+lumpy bronze (resist corrosion)
+
+[MISC]
+

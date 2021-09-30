@@ -1,0 +1,14 @@
+﻿[SCROLLS]
+ VUBAPUF (remove curse)
+
+[POTIONS]
+
+[RINGS]
+ bronze (ice)
+ twisted granite (lev)
+
+[WANDS]
+
+[AMULTES]
+
+[MISC]

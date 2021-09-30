@@ -1,0 +1,24 @@
+[SCROLLS]
+FIGYF (paper)
+MIA (immolation)
+
+[POTIONS]
+
+[RINGS]
+encrusted jade (fire)
+granite (magical power)
+large ivory (protection from magic)
+scratched copper (hunger)
+silver (poison resistance)
+
+[WANDS]
+bronze (enslavement)
+runed glass (slowing)
+sharpened iron (cold)
+short bronze (frost)
+tapered gold (confusion)
+
+[AMULTES]
+
+[MISC]
+

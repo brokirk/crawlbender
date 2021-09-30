@@ -1,0 +1,30 @@
+﻿[SCROLLS]
+ODADIJY (recharge)
+DUB KELIDUSH (map)
+QOGYVELIREPO (fear)
+UC F NOMYD (enchant armor)
+GYM LYL RYL (emolation)
+
+[POTIONS]
+emulsified orange (mutation)
+
+[RINGS]
+blackened bone (wizardry)
+knobbly granite (lev)
+small bone (poison resist)
+small marble (regen)
+steel (fire)
+notched bronze (sustenance)
+silver (slaying)
+
+[WANDS]
+worn glass (poly others)
+iron (fire)
+
+[AMULTES]
+large zirconium (inaccuracy)
+tiny garnet (control flight)
+zirconium (gormound)
+
+[MISC]
+

@@ -1,0 +1,13 @@
+[SCROLLS]
+
+[POTIONS]
+
+[RINGS]
+
+[WANDS]
+
+[AMULTES]
+
+[MISC]
+
+

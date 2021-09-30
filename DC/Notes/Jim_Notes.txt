@@ -1,0 +1,45 @@
+﻿[SCROLLS]
+PUXUG GU (immolation)
+IKIJ D (vorpalise weapon)
+
+[POTIONS]
+
+[RINGS]
+scratched wooden (teleportation)
+Jade (slaying)
+knobbly golden (sustenance)
+Invincibility (protct fire & e-;+2ev)
+Pypixigeper (inc mag; protct neg; bsrk)
+knobbly granite (hunger)
+
+[WANDS]
+platic (teleport)
+lead (fireball)
+
+[AMULTES]
+lumpy platinum (inaccuracy)
+
+[MISC]
+Bolt of Magma (d - Conjurations)
+Freezing Cloud (l - Clouds)
+[Books]
+Wizardry
+g - Haste                        Enchantment                   6
+Ice
+c - Condensation Shield          Ice/Transmigration            4
+Minor Magic
+f - Call Canine Familiar         Summoning                     3
+Conjurations
+e - Bolt of Magma                Conjuration/Fire/Earth        5
+Power
+d - Bolt of Iron                 Conjuration/Earth             6
+Control
+Enchantments
+d - Cause Fear                   Enchantment                   5
+f - Deflect Missiles             Enchantment/Air               6
+Geomancy
+b - Stoneskin                    Transmigration/Earth          2
+Poisoner's Handbook
+the Tempests
+Clouds
+
